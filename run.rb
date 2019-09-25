@@ -15,16 +15,5 @@ zoo3 = Zoo.new("Prospect Park Zoo", "Brooklyn")
 animal2 = Animal.new("Gorilla", 450, "Mufasa", zoo2)
 animal3 = Animal.new("Orangutan", 300, "Yeet", zoo3)
 
-puts Zoo.animal_species
 
-
-binding.pry
-
-
-
-
-
-
-
-
- puts "done"	
+puts Zoo.all
